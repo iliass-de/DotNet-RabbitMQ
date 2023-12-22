@@ -32,6 +32,12 @@ for each application run the following commnand
 
 1. Update the configuration file `appsettings.json` with the appropriate settings for your RabbitMQ server and PostgreSQL database.
 
+2. Run the migration within the consumer app:
+
+    ```
+    dotnet ef database update
+    ```
+
 ## Usage
 
 1. Start the producer application:
