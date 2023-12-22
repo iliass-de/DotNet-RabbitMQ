@@ -1,4 +1,4 @@
-# Introduction
+# DotNet-RabbitMQ
 
 I have developed this application using .NET 8, RabbitMQ and PostgreSQL. It consists of two console applications: a producer app that sends messages to the queue, and a consumer app that reads the messages from the queue and stores them in a PostgreSQL database.
 
