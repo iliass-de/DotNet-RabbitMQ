@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "consumer.csproj",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "/home/iliass/Projects/rabbitMQ/consumer/bin/Debug/net8.0/consumer.dll",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "preLaunchTask": "Build: consumer.csproj",
+            "presentation": {
+                "group": "ionide",
+                "hidden": false
+            }
+        }
+    ]
+}
